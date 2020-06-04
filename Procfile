@@ -1,1 +1,1 @@
-web: gunicorn rapidapipractice.wsgi
+web: gunicorn full_throttle_labs.wsgi
