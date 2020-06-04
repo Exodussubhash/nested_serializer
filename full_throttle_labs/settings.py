@@ -26,7 +26,7 @@ SECRET_KEY = 'jj@u+tv))@vyro_-kzftmd208ui6_gdtije1^v$_f01s_vmy2d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['nested-rest-api.herokuapp.com']
 
 
 # Application definition
