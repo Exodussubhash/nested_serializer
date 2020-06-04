@@ -21,11 +21,10 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'jj@u+tv))@vyro_-kzftmd208ui6_gdtije1^v$_f01s_vmy2d'
-
-# SECRET_KEY = os.environ.get('SECRET_KEY')
+# SECRET_KEY = 'jj@u+tv))@vyro_-kzftmd208ui6_gdtije1^v$_f01s_vmy2d'
+SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DEBUG')
 
 ALLOWED_HOSTS = ['nested-rest-api.herokuapp.com']
 

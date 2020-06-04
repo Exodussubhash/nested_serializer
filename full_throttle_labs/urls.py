@@ -22,6 +22,4 @@ urlpatterns = [
 	path('',views.index),
     path('admin/', admin.site.urls),
     path('users/',views.Members.as_view()),
-    url(r'^api-auth/', include('rest_framework.urls')),
-
 ]
