@@ -1,6 +1,6 @@
 # nested_serializer
 
-nested-rest-api.herokuapp.com
+https://nested-rest-api.herokuapp.com/
 
 Serializers in django rest framework are similar to django forms. By using django rest framework serializers we can serialize and deserialize the data. We can also validate the incoming data using django rest framework serializers to maintain the integrity of the data. We can divide the django rest framework serializers into two categories.
 
